@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'directive';
 
+  currentPage = 0; // what page the user is curently looking at [By default first image 0]
+
   images = [
     {
       title: 'At the beach',
