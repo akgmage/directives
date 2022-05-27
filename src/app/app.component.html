@@ -13,7 +13,10 @@
     >
       <a class="page-link">{{ i + 1 }}</a>
     </li>
-    <li class="page-item">
+    <li 
+      class="page-item"
+      [ngClass]="{ disabled: currentPage === images.length - 1}"
+    >
       <a class="page-link">Next</a>
     </li>
   </ul>
