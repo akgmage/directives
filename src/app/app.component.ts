@@ -16,8 +16,8 @@ export class AppComponent {
       url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
     },
     {
-      title: 'Naruto',
-      url: 'https://unsplash.com/photos/DomqHKN2Xik',
+      title: 'Ocean',
+      url: 'https://images.unsplash.com/photo-1488188840666-e2308741a62f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2NlYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500',
     },
     {
       title: 'Something',
