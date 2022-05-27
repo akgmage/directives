@@ -11,7 +11,7 @@
       [ngClass]="{ active: i === currentPage }"
       *ngFor="let image of images; let i = index;"
     >
-      <a class="page-link">{{ i + 1 }}</a>
+      <a (click)="currentPage = i" class="page-link">{{ i + 1 }}</a>
     </li>
     <li 
       class="page-item"
