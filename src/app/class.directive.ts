@@ -5,6 +5,8 @@ import { Directive } from '@angular/core';
 })
 export class ClassDirective {
 
-  constructor() { }
+  constructor() { 
+    console.log('Class directive used');
+  }
 
 }
