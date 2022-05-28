@@ -10,7 +10,7 @@
       <li 
         class="page-item" 
         [ngClass]="{ active: i === currentPage }"
-        *ngIf="i < 5"
+        *ngIf="checkWindowIndex(i)"
       >
         <a (click)="currentPage = i" class="page-link">{{ i + 1 }}</a>
       </li>
