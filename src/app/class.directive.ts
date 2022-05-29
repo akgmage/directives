@@ -14,6 +14,8 @@ export class ClassDirective {
   // Whenever we try to set appClass property, Input decorator is gonna redirect to backgroundColor method
   @Input('appClass') set classNames(classObj: any) {
     for(let key in classObj) {
+      // Whatever expression that was provided evaluates to true, 
+      // then we want to take this key and apply it as a class to our underlying elemenmt else remove key
       if(classObj[key]) {
         this.element.nativeElement.classList.add(key);
       } else {
