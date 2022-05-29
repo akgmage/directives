@@ -3,6 +3,8 @@ import { Directive, ElementRef, Input } from '@angular/core';
 @Directive({
   selector: '[appClass]'
 })
+
+// Attribute Directive
 export class ClassDirective {
 
   constructor(private element: ElementRef) { 
